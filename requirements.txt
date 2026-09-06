@@ -1,0 +1,20 @@
+streamlit>=1.40,<2
+sqlalchemy>=2.0,<3
+pydantic>=2.7,<3
+sqlglot>=26,<30
+pandas>=2.2,<3
+python-dotenv>=1.0,<2
+llama-index-core>=0.12,<0.15
+llama-index-llms-ollama>=0.5,<0.8
+pytest>=8,<9
+ollama>=0.4,<1
+matplotlib>=3.8,<4
+pyarrow>=14,<26
+plotly>=5.18,<8
+
+# If the installed LlamaIndex release requires a separate SQL integration,
+# add the currently documented package from https://docs.llamaindex.ai/.
+
+# This application does not require any cloud LLM SDK.
+
+# End of requirements.
